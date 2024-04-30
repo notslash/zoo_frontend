@@ -1,0 +1,107 @@
+.navbar{
+    display: flex;
+    /* border: 3px solid red; */
+    color: #008000;
+    width:100%;
+    height:120px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    
+    
+    
+    
+}
+
+.nav_text{
+    display: flex;
+    justify-content:center ;
+    color:black;
+    /* border: 3px solid pink; */
+    height: fit-content;
+    /* margin-right: 60%; */
+    gap:60px;
+    font-size: 40px;
+    min-width: 10px;
+
+}
+
+
+.navbar_main{
+    display: flex;
+    justify-content: center;
+}
+
+#button_nav{
+    border: none;
+    background-color: transparent;
+    padding: 2px;
+}
+
+
+.title{
+    text-decoration: none;
+    color:black;
+}
+
+
+.login_sign{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:2%;
+    gap:15px;
+    
+}
+
+#login{
+    background-color: black;
+    padding:10px 25px;
+    color:white;
+    font-size: 15px;
+}
+
+#signup{
+    background-color: black;
+    padding:10px 25px;
+    color:white;
+    font-size: 15px;
+}
+
+#profile{
+    background-color: black;
+    padding:10px 25px;
+    color:white;
+    font-size: 15px;
+
+
+}
+
+
+
+  
+  @media only screen and (max-width: 1300px) {
+    .nav_text {
+        /* transition: 0.2s; */
+      display: flex;
+      flex-direction: column;
+      gap:0px;
+      width:100%;
+      align-items: center;
+      /* margin-top: 10px; */
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .title {
+        transition: 0.2s;
+        font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .navbar {
+        transition: 0.2s;
+        height: 140px;
+    }
+  }

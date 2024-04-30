@@ -1,0 +1,17 @@
+.about_heading{
+    
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    flex-direction: column;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.about_text{
+
+    justify-content: center;
+    width:70%;
+    font-size:30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}

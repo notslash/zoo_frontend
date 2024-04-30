@@ -1,0 +1,18 @@
+.signup_login{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+
+.termscheck{
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    align-items: center;
+    gap:4px
+}
+
+
+#terms_link{
+    color:black
+}
