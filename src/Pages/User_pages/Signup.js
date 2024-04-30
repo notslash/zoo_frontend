@@ -23,7 +23,7 @@ const Signup=()=>{
                 e.preventDefault()
                 setError(false)
                 setUserdata(null)
-                const res= await axios.post(`http://127.0.0.1:8000/signup`,{username,password,password2})
+                const res= await axios.post(`https://zoo-app-back.onrender.com/signup`,{username,password,password2})
 
                 console.log(res.data)
                 setUserdata({...res.data})
