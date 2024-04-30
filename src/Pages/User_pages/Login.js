@@ -22,7 +22,7 @@ const Login=()=>{
             e.preventDefault()
             setError(false)
             setUserdata(null)
-            const res=await axios.get(`http://127.0.0.1:8000/login?username=${username}&password=${password}`)
+            const res=await axios.get(`https://zoo-app-back.onrender.com/login?username=${username}&password=${password}`)
 
             console.log(res.data)
             setUserdata({...res.data})
